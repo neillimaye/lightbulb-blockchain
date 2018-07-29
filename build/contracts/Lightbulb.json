@@ -1,0 +1,1148 @@
+{
+  "contractName": "Lightbulb",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "change",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "get",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "gettracker",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b5060016000806101000a81548160ff0219169083151502179055506040805190810160405280600581526020017f747275636b0000000000000000000000000000000000000000000000000000008152506001908051906020019061007692919061007c565b50610121565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106100bd57805160ff19168380011785556100eb565b828001600101855582156100eb579182015b828111156100ea5782518255916020019190600101906100cf565b5b5090506100f891906100fc565b5090565b61011e91905b8082111561011a576000816000905550600101610102565b5090565b90565b610331806101306000396000f300608060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063234bccf51461005c5780632ee79ded146100ec5780636d4ce63c14610103575b600080fd5b34801561006857600080fd5b50610071610132565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100b1578082015181840152602081019050610096565b50505050905090810190601f1680156100de5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b3480156100f857600080fd5b506101016101d4565b005b34801561010f57600080fd5b5061011861024a565b604051808215151515815260200191505060405180910390f35b606060018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101ca5780601f1061019f576101008083540402835291602001916101ca565b820191906000526020600020905b8154815290600101906020018083116101ad57829003601f168201915b5050505050905090565b6000809054906101000a900460ff16156000806101000a81548160ff0219169083151502179055506040805190810160405280600481526020017f74756e610000000000000000000000000000000000000000000000000000000081525060019080519060200190610247929190610260565b50565b60008060009054906101000a900460ff16905090565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106102a157805160ff19168380011785556102cf565b828001600101855582156102cf579182015b828111156102ce5782518255916020019190600101906102b3565b5b5090506102dc91906102e0565b5090565b61030291905b808211156102fe5760008160009055506001016102e6565b5090565b905600a165627a7a72305820318d81d40f12746b214a06bd3d9fbc0e639e94adce04537c37c9069a13829e900029",
+  "deployedBytecode": "0x608060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063234bccf51461005c5780632ee79ded146100ec5780636d4ce63c14610103575b600080fd5b34801561006857600080fd5b50610071610132565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100b1578082015181840152602081019050610096565b50505050905090810190601f1680156100de5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b3480156100f857600080fd5b506101016101d4565b005b34801561010f57600080fd5b5061011861024a565b604051808215151515815260200191505060405180910390f35b606060018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101ca5780601f1061019f576101008083540402835291602001916101ca565b820191906000526020600020905b8154815290600101906020018083116101ad57829003601f168201915b5050505050905090565b6000809054906101000a900460ff16156000806101000a81548160ff0219169083151502179055506040805190810160405280600481526020017f74756e610000000000000000000000000000000000000000000000000000000081525060019080519060200190610247929190610260565b50565b60008060009054906101000a900460ff16905090565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106102a157805160ff19168380011785556102cf565b828001600101855582156102cf579182015b828111156102ce5782518255916020019190600101906102b3565b5b5090506102dc91906102e0565b5090565b61030291905b808211156102fe5760008160009055506001016102e6565b5090565b905600a165627a7a72305820318d81d40f12746b214a06bd3d9fbc0e639e94adce04537c37c9069a13829e900029",
+  "sourceMap": "26:360:0:-;;;87:72;8:9:-1;5:2;;;30:1;27;20:12;5:2;87:72:0;121:4;113:5;;:12;;;;;;;;;;;;;;;;;;131:23;;;;;;;;;;;;;;;;;;:13;:23;;;;;;;;;;;;:::i;:::-;;26:360;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
+  "deployedSourceMap": "26:360:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;308:76;;8:9:-1;5:2;;;30:1;27;20:12;5:2;308:76:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;308:76:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;163:78;;8:9:-1;5:2;;;30:1;27;20:12;5:2;163:78:0;;;;;;245:60;;8:9:-1;5:2;;;30:1;27;20:12;5:2;245:60:0;;;;;;;;;;;;;;;;;;;;;;;;;;;308:76;346:6;366:13;359:20;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;308:76;:::o;163:78::-;203:5;;;;;;;;;;;202:6;194:5;;:14;;;;;;;;;;;;;;;;;;214:22;;;;;;;;;;;;;;;;;;:13;:22;;;;;;;;;;;;:::i;:::-;;163:78::o;245:60::-;276:4;295:5;;;;;;;;;;;288:12;;245:60;:::o;26:360::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.4.18;\n\ncontract Lightbulb {\n  bool onoff;\n  string statustracker;\n  constructor() public{\n    onoff = true;\n    statustracker = \"truck\";\n  }\n\n  function change() public {\n    onoff = !onoff;\n    statustracker = \"tuna\";\n  }\n\n  function get() public returns (bool) {\n    return onoff;\n  }\n  function gettracker() public returns (string){\n    return statustracker;\n  }\n}\n",
+  "sourcePath": "/Users/Neil/Documents/simplebulb/contracts/Lightbulb.sol",
+  "ast": {
+    "absolutePath": "/Users/Neil/Documents/simplebulb/contracts/Lightbulb.sol",
+    "exportedSymbols": {
+      "Lightbulb": [
+        47
+      ]
+    },
+    "id": 48,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".18"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 47,
+        "linearizedBaseContracts": [
+          47
+        ],
+        "name": "Lightbulb",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 3,
+            "name": "onoff",
+            "nodeType": "VariableDeclaration",
+            "scope": 47,
+            "src": "49:10:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bool",
+              "typeString": "bool"
+            },
+            "typeName": {
+              "id": 2,
+              "name": "bool",
+              "nodeType": "ElementaryTypeName",
+              "src": "49:4:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bool",
+                "typeString": "bool"
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 5,
+            "name": "statustracker",
+            "nodeType": "VariableDeclaration",
+            "scope": 47,
+            "src": "63:20:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 4,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "63:6:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 16,
+              "nodeType": "Block",
+              "src": "107:52:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 10,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 8,
+                      "name": "onoff",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 3,
+                      "src": "113:5:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "hexValue": "74727565",
+                      "id": 9,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "bool",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "121:4:0",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      },
+                      "value": "true"
+                    },
+                    "src": "113:12:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 11,
+                  "nodeType": "ExpressionStatement",
+                  "src": "113:12:0"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 14,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 12,
+                      "name": "statustracker",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 5,
+                      "src": "131:13:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_storage",
+                        "typeString": "string storage ref"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "hexValue": "747275636b",
+                      "id": 13,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "string",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "147:7:0",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_stringliteral_277e1969dea33bae62441f1ac9b13d25deaf90acd10850150b604d9535d44138",
+                        "typeString": "literal_string \"truck\""
+                      },
+                      "value": "truck"
+                    },
+                    "src": "131:23:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage",
+                      "typeString": "string storage ref"
+                    }
+                  },
+                  "id": 15,
+                  "nodeType": "ExpressionStatement",
+                  "src": "131:23:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 17,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 6,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "98:2:0"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 7,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "107:0:0"
+            },
+            "scope": 47,
+            "src": "87:72:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 29,
+              "nodeType": "Block",
+              "src": "188:53:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 23,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 20,
+                      "name": "onoff",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 3,
+                      "src": "194:5:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 22,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "UnaryOperation",
+                      "operator": "!",
+                      "prefix": true,
+                      "src": "202:6:0",
+                      "subExpression": {
+                        "argumentTypes": null,
+                        "id": 21,
+                        "name": "onoff",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 3,
+                        "src": "203:5:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "src": "194:14:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 24,
+                  "nodeType": "ExpressionStatement",
+                  "src": "194:14:0"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 27,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 25,
+                      "name": "statustracker",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 5,
+                      "src": "214:13:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_storage",
+                        "typeString": "string storage ref"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "hexValue": "74756e61",
+                      "id": 26,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "string",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "230:6:0",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_stringliteral_05c64ad42d005040579823ce0b35468c4b0f28bf30786929a81953e3883848f5",
+                        "typeString": "literal_string \"tuna\""
+                      },
+                      "value": "tuna"
+                    },
+                    "src": "214:22:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage",
+                      "typeString": "string storage ref"
+                    }
+                  },
+                  "id": 28,
+                  "nodeType": "ExpressionStatement",
+                  "src": "214:22:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 30,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "change",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 18,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "178:2:0"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 19,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "188:0:0"
+            },
+            "scope": 47,
+            "src": "163:78:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 37,
+              "nodeType": "Block",
+              "src": "282:23:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 35,
+                    "name": "onoff",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 3,
+                    "src": "295:5:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "functionReturnParameters": 34,
+                  "id": 36,
+                  "nodeType": "Return",
+                  "src": "288:12:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 38,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "get",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 31,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "257:2:0"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 34,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 33,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 38,
+                  "src": "276:4:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 32,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "276:4:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "275:6:0"
+            },
+            "scope": 47,
+            "src": "245:60:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 45,
+              "nodeType": "Block",
+              "src": "353:31:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 43,
+                    "name": "statustracker",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 5,
+                    "src": "366:13:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage",
+                      "typeString": "string storage ref"
+                    }
+                  },
+                  "functionReturnParameters": 42,
+                  "id": 44,
+                  "nodeType": "Return",
+                  "src": "359:20:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 46,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "gettracker",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 39,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "327:2:0"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 42,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 41,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 46,
+                  "src": "346:6:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 40,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "346:6:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "345:8:0"
+            },
+            "scope": 47,
+            "src": "308:76:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 48,
+        "src": "26:360:0"
+      }
+    ],
+    "src": "0:387:0"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/Neil/Documents/simplebulb/contracts/Lightbulb.sol",
+    "exportedSymbols": {
+      "Lightbulb": [
+        47
+      ]
+    },
+    "id": 48,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".18"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 47,
+        "linearizedBaseContracts": [
+          47
+        ],
+        "name": "Lightbulb",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 3,
+            "name": "onoff",
+            "nodeType": "VariableDeclaration",
+            "scope": 47,
+            "src": "49:10:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bool",
+              "typeString": "bool"
+            },
+            "typeName": {
+              "id": 2,
+              "name": "bool",
+              "nodeType": "ElementaryTypeName",
+              "src": "49:4:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bool",
+                "typeString": "bool"
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 5,
+            "name": "statustracker",
+            "nodeType": "VariableDeclaration",
+            "scope": 47,
+            "src": "63:20:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 4,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "63:6:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 16,
+              "nodeType": "Block",
+              "src": "107:52:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 10,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 8,
+                      "name": "onoff",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 3,
+                      "src": "113:5:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "hexValue": "74727565",
+                      "id": 9,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "bool",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "121:4:0",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      },
+                      "value": "true"
+                    },
+                    "src": "113:12:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 11,
+                  "nodeType": "ExpressionStatement",
+                  "src": "113:12:0"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 14,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 12,
+                      "name": "statustracker",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 5,
+                      "src": "131:13:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_storage",
+                        "typeString": "string storage ref"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "hexValue": "747275636b",
+                      "id": 13,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "string",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "147:7:0",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_stringliteral_277e1969dea33bae62441f1ac9b13d25deaf90acd10850150b604d9535d44138",
+                        "typeString": "literal_string \"truck\""
+                      },
+                      "value": "truck"
+                    },
+                    "src": "131:23:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage",
+                      "typeString": "string storage ref"
+                    }
+                  },
+                  "id": 15,
+                  "nodeType": "ExpressionStatement",
+                  "src": "131:23:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 17,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 6,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "98:2:0"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 7,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "107:0:0"
+            },
+            "scope": 47,
+            "src": "87:72:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 29,
+              "nodeType": "Block",
+              "src": "188:53:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 23,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 20,
+                      "name": "onoff",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 3,
+                      "src": "194:5:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 22,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "UnaryOperation",
+                      "operator": "!",
+                      "prefix": true,
+                      "src": "202:6:0",
+                      "subExpression": {
+                        "argumentTypes": null,
+                        "id": 21,
+                        "name": "onoff",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 3,
+                        "src": "203:5:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "src": "194:14:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 24,
+                  "nodeType": "ExpressionStatement",
+                  "src": "194:14:0"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 27,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 25,
+                      "name": "statustracker",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 5,
+                      "src": "214:13:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_storage",
+                        "typeString": "string storage ref"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "hexValue": "74756e61",
+                      "id": 26,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "string",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "230:6:0",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_stringliteral_05c64ad42d005040579823ce0b35468c4b0f28bf30786929a81953e3883848f5",
+                        "typeString": "literal_string \"tuna\""
+                      },
+                      "value": "tuna"
+                    },
+                    "src": "214:22:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage",
+                      "typeString": "string storage ref"
+                    }
+                  },
+                  "id": 28,
+                  "nodeType": "ExpressionStatement",
+                  "src": "214:22:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 30,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "change",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 18,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "178:2:0"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 19,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "188:0:0"
+            },
+            "scope": 47,
+            "src": "163:78:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 37,
+              "nodeType": "Block",
+              "src": "282:23:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 35,
+                    "name": "onoff",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 3,
+                    "src": "295:5:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "functionReturnParameters": 34,
+                  "id": 36,
+                  "nodeType": "Return",
+                  "src": "288:12:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 38,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "get",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 31,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "257:2:0"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 34,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 33,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 38,
+                  "src": "276:4:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 32,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "276:4:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "275:6:0"
+            },
+            "scope": 47,
+            "src": "245:60:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 45,
+              "nodeType": "Block",
+              "src": "353:31:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 43,
+                    "name": "statustracker",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 5,
+                    "src": "366:13:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage",
+                      "typeString": "string storage ref"
+                    }
+                  },
+                  "functionReturnParameters": 42,
+                  "id": 44,
+                  "nodeType": "Return",
+                  "src": "359:20:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 46,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "gettracker",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 39,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "327:2:0"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 42,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 41,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 46,
+                  "src": "346:6:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 40,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "346:6:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "345:8:0"
+            },
+            "scope": 47,
+            "src": "308:76:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 48,
+        "src": "26:360:0"
+      }
+    ],
+    "src": "0:387:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x6f5a5d0d6121c627a4c8a356003a57a0237b5883",
+      "transactionHash": "0xc71f25ab6d7062c6f0841a040385e8853bd3a37ff07fdab332284cfc69b330f7"
+    }
+  },
+  "schemaVersion": "2.0.1",
+  "updatedAt": "2018-07-27T21:52:09.943Z"
+}
